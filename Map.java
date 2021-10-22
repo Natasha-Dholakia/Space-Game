@@ -61,6 +61,7 @@ public class Map {
         double[] P = {0.40, 0.40, 0.50, 0.60, 0.60, 0.50};
         StdDraw.filledPolygon(O, P);                            // Hexagon 8
 
+        
 
         StdDraw.picture(0.10, 0.70, "planet1.png", scale, scale);       // planet 0
         StdDraw.picture(0.20, 0.70, "planet2.png", scale, scale);       // planet 1
